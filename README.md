@@ -6,8 +6,22 @@ Works as a **CLI tool** and as a **Node.js / browser library**. Zero runtime dep
 
 ## Install
 
+As a library:
+
 ```bash
 npm install srtsync
+```
+
+As a global CLI tool:
+
+```bash
+npm install -g srtsync
+```
+
+Or run directly without installing:
+
+```bash
+npx srtsync shift +00:00:01.000 movie.srt > fixed.srt
 ```
 
 ## CLI
